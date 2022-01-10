@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.bordo{
+    border: 3px solid black;
+}
+
+.item {
+    flex: 1 0 10%;
+    border: 3px solid black;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.item2 {
+    flex: 1 0 11%;
+}
+
+.item3 {
+    flex: 1 0 13%;
+}
+
+.active{
+    color: white;
+    background-color: rgb(9, 113, 148);
+}
+
+.bomb{
+    background-color: darkred;
+}
+
+#punteggio{
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
